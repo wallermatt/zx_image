@@ -1,7 +1,8 @@
 # zx_image
-A command line tool that takes a ZX Spectrum snapshot file (.sna) and creates a .png screenshot of what the computer would be displaying on the screen at the time.
+A command line tool written in Golang that takes a ZX Spectrum snapshot file (.sna) and creates a .png screenshot of what the computer would be displaying on the screen at the time.
 
 ## Usage
+Once Go is installed:
 ```
 go build zx_image.go
 ./zx_image <optional snapshot filename + path> <optional image name>
